@@ -1,4 +1,5 @@
 # Walkout Instructions
+This is a couple of scripts on how to create a virtual walkout video.
 
 ### Head
 In my main file I want the wakout to be on (example: index.php)
@@ -6,7 +7,7 @@ In my main file I want the wakout to be on (example: index.php)
 Place in `<head>`.
 
     <script type="text/javascript" src="/walkout/swfobject.js,/walkout/walkout.js"></script>
-    <script type="text/javascript" src="/walkout/walkout.js"></script>
+    <script type="text/javascript" src="/walkout/walkout-np.js"></script>
     //walkout
     if(!isset($_SESSION['walkout-home'])) $_SESSION['walkout-home'] = 0;
     function walkout ($walkout) { 

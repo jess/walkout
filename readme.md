@@ -47,8 +47,11 @@ Place somewhere in your css
 
 
 ### JS Files
-Be sure to upload your javascript files...(swfobject.js, and walkout.js)
+Be sure to upload your javascript files in the the /walkout directory...(swfobject.js, and walkout-np.js)
 
 
 ### Flash File
-Open the flash file and replace the video with your video file.
+You shouldn't have to change anythin in the manager file.  Just keep the
+filename for the video-np.swf the same.
+
+Open the video-np.fla flash file and replace the video with your video file.  

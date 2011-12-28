@@ -9,7 +9,7 @@
 function playIntro() {
 	if (swfobject.hasFlashPlayerVersion("6.0.0")) {
 		  var fn = function() {
-			var att = { data:"/walkout/manager-np.swf", width:"450", height:"285" };
+			var att = { data:"manager-np.swf", width:"450", height:"285" };
 			var par = { flashvars:"foo=bar", wmode:"transparent" };
 			var id = "introVideo";
 			var myObject = swfobject.createSWF(att, par, id);

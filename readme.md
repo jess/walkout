@@ -6,8 +6,8 @@ In my main file I want the wakout to be on (example: index.php)
 
 Place in `<head>`.
 
-    <script type="text/javascript" src="/walkout/swfobject.js,/walkout/walkout.js"></script>
-    <script type="text/javascript" src="/walkout/walkout-np.js"></script>
+    <script type="text/javascript" src="/js/swfobject.js"></script>
+    <script type="text/javascript" src="/js/walkout-np.js"></script>
     //walkout
     if(!isset($_SESSION['walkout-home'])) $_SESSION['walkout-home'] = 0;
     function walkout ($walkout) { 
